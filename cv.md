@@ -4,12 +4,17 @@ _Minsk, Belarus_
 
 ## Contact information
 
-**Phone:** +375(29)857-78-62
-**E-mail** alexei.germanovich@yandex.ru
+- Phone: +375(29)857-78-62
+- E-mail: alexei.germanovich@yandex.ru
+- Telegram: @Medein
 
 ## Summary
 
+**Goal:** become a Fullstack JS Developer
+
 ## Skills
+
+- Languages: C#, JS, HTML, CSS, SQL
 
 ## Education
 
@@ -21,7 +26,7 @@ _August, 2019 - Present_ - C# Programmer
 
 ## Code Samples
 
-```
+```csharp
 private void LoadCfg()
         {
             UInt32 Result;
