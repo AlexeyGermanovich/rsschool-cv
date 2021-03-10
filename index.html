@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alexey Germanovich</title>
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+    <div class="wrapper">
+    <header class="header">
+        <h1>Alexey Germanovich</h1>
+        <figure>
+            <img src="./img/cowboyfrog.jpg" alt="avatar/cowboyfrog" class="avatar-image">
+        </figure>
+        <section>
+            <h2>Contact information</h2>
+            <ul>
+                <li>Phone:<a href="tel:+375298577862">+375(29)857-78-62</a></li>
+                <li>E-mail: alexei.germanovich@yandex.ru</li>
+                <li>Telegram: @Medein</li>
+            </ul>
+        </section>
+    </header>
+    <main>
+        <section>
+            <h2>Summary</h2>
+            Goal: become a Fullstack JS Developer
+        </section>
+        <section>
+            <h2>Skills</h2>
+            <ul>
+                <li>Languages: C#, JS, HTML, CSS, SQL</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Education</h2>
+            <p>Faculty of Information Technologies and Control of Belarusian State University of Informatics and Radioelectronics</p>
+        </section>
+        <section>
+            <h2>Work Experience</h2>
+            <p>August, 2019 - Present - C# Programmer</p>
+        </section>
+        <section>
+            <h2>Code Samples</h2>
+            <pre><code>private void LoadCfg()
+{
+    UInt32 Result;
+    string strTemp;
+        
+    //Set all configurations for the device according to the loaded file
+    Result = Motion.mAcm_DevLoadConfig(m_DeviceHandle, AppDomain.CurrentDomain.BaseDirectory + "\\20001000.cfg");
+    if (Result != (uint)Advantech.Motion.ErrorCode.SUCCESS)
+    {
+        strTemp = "Load Config Failed With Error Code: [0x" + Convert.ToString(Result, 16) + "]";
+        ShowMessages(strTemp, Result);
+        return;
+    }
+}</code></pre>
+        </section>
+        <section>
+            <h2>English</h2>
+            <p>B1 level (it was 2 years ago)</p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-block">
+            <a href="https://rs.school/js/">
+                <img src="./img/rs_school_js.svg" alt="logo rsschool">
+            </a>
+        </div>
+        <div class="footer-block">
+            <a href="https://github.com/AlexeyGermanovich">
+                <h3>My Github</h3>
+            </a>
+            <h4>2021</h4>
+        </div>
+    </footer>
+    </div>
+</body>
+
+</html>

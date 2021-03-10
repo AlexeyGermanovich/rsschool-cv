@@ -1,0 +1,48 @@
+.avatar-image {
+  height: 100px;
+}
+
+body {
+  background-color: #282828;
+  color: #b8b8a2;
+  display: block;
+  text-align: justify;
+}
+
+.wrapper {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+h1,
+h2 {
+  color: #f9f5e1;
+}
+
+a {
+  color: #f25322;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffab91;
+}
+
+ul {
+  list-style: square;
+  padding: 0;
+}
+
+footer img {
+  height: 50px;
+}
+
+footer {
+  padding: 30px 0;
+  display: flex;
+  align-items: center;
+}
+
+.footer-block {
+  margin-right: 40px;
+}
