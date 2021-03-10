@@ -6,9 +6,12 @@ body {
   background-color: #282828;
   color: #b8b8a2;
   display: block;
-  margin: auto;
-  width: 90%;
   text-align: justify;
+}
+
+.wrapper {
+  max-width: 1024px;
+  margin: 0 auto;
 }
 
 h1,
